@@ -1,0 +1,10 @@
+body{
+    
+}
+.header{
+    padding: 5px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 15px;
+}

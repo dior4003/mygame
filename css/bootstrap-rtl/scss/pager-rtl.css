@@ -1,0 +1,13 @@
+.pager {
+  padding-right: 0;
+  padding-left: initial;
+}
+
+.pager .pager-next {
+  float: left;
+}
+
+.pager .pager-prev {
+  float: right;
+}
+/*# sourceMappingURL=pager-rtl.css.map */

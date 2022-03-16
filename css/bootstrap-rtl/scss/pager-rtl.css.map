@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,MAAM,CAAC;EACL,aAAa,EAAE,CAAC;EAChB,YAAY,EAAE,OAAO;CAUtB;;AAZD,AAIE,MAJI,CAIJ,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;CACd;;AANH,AAQE,MARI,CAQJ,WAAW,CAAC;EACR,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "pager-rtl.scss"
+    ],
+    "names": [],
+    "file": "pager-rtl.css"
+}

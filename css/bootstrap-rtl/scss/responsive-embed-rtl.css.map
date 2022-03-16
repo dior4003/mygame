@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAEE,iBAFe,CAEf,sBAAsB;AAFxB,iBAAiB,CAGf,MAAM;AAHR,iBAAiB,CAIf,KAAK;AAJP,iBAAiB,CAKf,MAAM,CAAC;EACL,KAAK,EAAE,CAAC;EACR,IAAI,EAAE,IAAI;CACX",
+    "sources": [
+        "responsive-embed-rtl.scss"
+    ],
+    "names": [],
+    "file": "responsive-embed-rtl.css"
+}

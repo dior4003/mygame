@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "variables.md.scss"
+    ],
+    "names": [],
+    "file": "variables.md.css"
+}

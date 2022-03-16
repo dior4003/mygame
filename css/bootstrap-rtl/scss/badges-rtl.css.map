@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEE,AAAA,UAAU,GAAG,EAAE,GAAG,CAAC,GAFrB,MAAM,CAEoB;EACtB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,GAAG;CAClB;;AAED,AAAA,gBAAgB,GAPlB,MAAM,CAOiB;EACnB,KAAK,EAAE,IAAI;CACZ;;AACD,AAAA,gBAAgB,GAVlB,MAAM,GAAN,MAAM,CAUqB;EACvB,WAAW,EAAE,GAAG;EAChB,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "badges-rtl.scss"
+    ],
+    "names": [],
+    "file": "badges-rtl.css"
+}

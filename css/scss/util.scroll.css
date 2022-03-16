@@ -1,0 +1,37 @@
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollable.hover {
+  overflow-y: hidden;
+}
+
+.scrollable.hover > * {
+  margin-top: -1px;
+}
+
+.scrollable.hover:hover, .scrollable.hover:focus, .scrollable.hover:active {
+  overflow: visible;
+  overflow-y: auto;
+}
+
+.smart .scrollable {
+  overflow-y: auto !important;
+}
+
+.scroll-x,
+.scroll-y {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+.scroll-x {
+  overflow-x: auto;
+}
+/*# sourceMappingURL=util.scroll.css.map */

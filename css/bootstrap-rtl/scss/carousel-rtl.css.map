@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,KAAK,EAAE,GAAG;EACV,IAAI,EAAE,CAAC;EACP,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,CAAC;EACd,aAAa,EAAE,CAAC;CACjB",
+    "sources": [
+        "carousel-rtl.scss"
+    ],
+    "names": [],
+    "file": "carousel-rtl.css"
+}

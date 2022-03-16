@@ -1,0 +1,64 @@
+[layout],
+[data-layout] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+[layout=column],
+[data-layout=column] {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+[layout=row],
+[data-layout=row] {
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+[layout-wrap],
+[data-layout-wrap] {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+[layout-fill],
+[data-layout-fill] {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+@-moz-document url-prefix() {
+  [layout-fill],
+  [data-layout-fill] {
+    margin: 0;
+    width: 100%;
+    min-height: auto;
+    height: inherit;
+  }
+}
+
+[flex],
+[data-flex] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+          flex: 1;
+}
+
+[flex-no-shrink],
+[data-flex-no-shrink] {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/*# sourceMappingURL=ui.flexbox.css.map */

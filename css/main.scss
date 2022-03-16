@@ -1,0 +1,393 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+    padding: 0;
+    margin: 0;
+    
+    
+
+    .container{
+        .nav-item-click{
+        top: 70px;
+        height: 70%;
+        width: 70%;
+        display: none;
+        position: fixed;
+        overflow: hidden;
+        background-color: #323435;
+        z-index: 2;
+        
+        .nav-item-click-close{
+            position: absolute;
+            right: 0;
+        }
+        .row{
+            .col-md-8{
+                .list-group{
+                    margin-left: 50px;
+                    .list-group-item{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        }
+            
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c) no-repeat;
+        .navbar{
+        width: 80px;
+        height: 100%;
+        display: flex;
+        position: fixed;
+        background-color: inherit;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        // background-color: coral;
+        &:hover +nav{
+            width: 100px;
+            z-index: 2;
+        }
+        nav{
+            padding-top: 30px;
+            width: 0;
+            height: 100%;
+            overflow: scroll;
+            background-color: lightslategrey;
+            transition: all 1s linear; 
+            // margin-left: 100px;
+           
+            .list-group{
+               
+                .card{
+                    background-color: inherit;
+                    span{
+                        width: 20px;
+                        height: 20px;
+                        font-size: auto;
+                        padding: 0;
+                        
+                        margin-top: 5px;
+                        margin-left: 35px;
+                    }
+                    p{
+                        button{
+                                font-family: 'Times New Roman', Times, serif;
+                                
+                                position: relative;
+                                width: 100%;
+                                height: 20px;
+                                border-radius: 5px;
+                                border: 1px solid #222324;
+                                outline: none;
+                                background-color: #fff;
+                                color: #323435 ;
+                                font-size: 10px;
+                                letter-spacing: 2px;
+                                text-transform: uppercase;
+                                cursor: pointer;
+                                top: 0px;
+                                left: 0px;
+                                /* transition: 2s all linear; */
+                                &:hover{
+                                 background: linear-gradient(20deg, rgb(90, 95, 97) , rgb(56, 57, 58) ,rgb(34, 42, 43) ,rgb(18, 19, 19) );
+                                 background-position: 400px;
+                                 /* background-color: #fff; */
+                                 /* transition: all 5s linear; */
+                                 animation-name: blur;
+                                 /* animation-delay: 0.4s; */
+                                 animation-duration: 4s;
+                                 animation-iteration-count: infinite;
+                                 border: none;
+                                 color: rgb(230, 228, 228);
+                                 transition: all 2s linear;
+                                 background-repeat: repeat;
+                                 /* background-size: initial; */
+                                }
+                                &::before{
+                                 content: '';
+                                 position: absolute;
+                                 bottom: -10px;
+                                 left: -10px;
+                                 right: -10px;
+                                 top: -10px;
+                                 background: inherit;
+                                 border-radius: 10px;
+                                 filter: blur(10px);
+                                 opacity: 1;
+                                 transition: opacity 0.5 s;
+                                 z-index: -1;
+                             }
+                            }
+                           
+                            @keyframes blur{
+                                0%{
+                                    background-position: 0;
+                                }
+                                100%{
+                                    background-position: 100%;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                .list-group-item{
+                    background-color: inherit;
+                    padding: 0;
+                    
+                    
+                }
+            }
+    }
+    
+        
+        
+        
+    
+        
+    
+    header{
+        display: none;
+        .white{
+            margin-top: 70px;
+        }
+        .title{
+            font-size: 300px;
+            position: relative;
+            margin-left: 50px;
+            margin-top: -50px;
+            color: rgb(28, 41, 68);
+            &::after{
+                content: 'City';
+                font-size: 50px;
+                position: absolute;
+                top: 135px;
+                left: 130px;
+                color: #000;
+                text-shadow: 3px  0px  0  #fff,
+                             0px -3px 0px #fff,
+                             -3px 0px 0px #fff; 
+            }
+        }
+        .gameContentList{
+            .tabcontent{
+                display: none;
+                padding: 6px 12px;
+                border: 1px solid #ccc;
+                border-top: none;
+            }
+           .card{
+               margin-left: 20px;
+               span{
+                   position: absolute;
+                   top: 5px;
+                   right: 5px;
+                   font-size: 16px;
+               }
+               a{
+                   display: inline-flex;
+               }
+               background: linear-gradient(45deg, red, blue);
+               width: 250px;
+               display: inline-block;
+               h1{
+                   font-size: 32px;
+               }
+               p{
+                button{
+                    
+                    font-family: 'Times New Roman', Times, serif;
+                        
+                        position: relative;
+                        width: 100%;
+                        height: 60px;
+                        border-radius: 10px;
+                        outline: none;
+                        background-color: #fff;
+                        color: #323435 ;
+                        font-size: 25px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        top: 0px;
+                        left: 0px;
+                        /* transition: 2s all linear; */
+                        &:hover{
+                         background: linear-gradient(20deg, rgb(90, 95, 97) , rgb(56, 57, 58) ,rgb(34, 42, 43) ,rgb(18, 19, 19) );
+                         background-position: 400px;
+                         /* background-color: #fff; */
+                         /* transition: all 5s linear; */
+                         animation-name: blur;
+                         /* animation-delay: 0.4s; */
+                         animation-duration: 4s;
+                         animation-iteration-count: infinite;
+                         border: none;
+                         color: rgb(230, 228, 228);
+                         transition: all 2s linear;
+                         border: 1px solid #222324;
+                         background-repeat: repeat;
+                         /* background-size: initial; */
+                        }
+                        &:active{
+                            background-color: rgb(206, 203, 203);
+                            font-family: 'Times New Roman', Times, serif;
+                        
+                            position: relative;
+                            width: 100%;
+                            height: 60px;
+                            border-radius: 10px;
+                            outline: none;
+                            // background-color: #fff;
+                            color: #323435 ;
+                            font-size: 25px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            top: 0px;
+                            left: 0px;
+                        }
+                        &::before{
+                         content: '';
+                         position: absolute;
+                         bottom: -10px;
+                         left: -10px;
+                         right: -10px;
+                         top: -10px;
+                         background: inherit;
+                         border-radius: 10px;
+                         filter: blur(10px);
+                         opacity: 1;
+                         transition: opacity 0.5 s;
+                         z-index: -1;
+                     }
+                    
+                }
+                 .tablinksactive{
+                        font-family: 'Times New Roman', Times, serif;
+                        
+                        position: relative;
+                        width: 100%;
+                        height: 60px;
+                        border-radius: 10px;
+                        outline: none;
+                        background-color: #fff;
+                        color: #323435 ;
+                        font-size: 25px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        top: 0px;
+                        left: 0px;
+                        /* transition: 2s all linear; */
+                        &:hover{
+                         background: linear-gradient(20deg, rgb(90, 95, 97) , rgb(56, 57, 58) ,rgb(34, 42, 43) ,rgb(18, 19, 19) );
+                         background-position: 400px;
+                         /* background-color: #fff; */
+                         /* transition: all 5s linear; */
+                         animation-name: blur;
+                         /* animation-delay: 0.4s; */
+                         animation-duration: 4s;
+                         animation-iteration-count: infinite;
+                         border: none;
+                         color: rgb(230, 228, 228);
+                         transition: all 2s linear;
+                         border: 1px solid #222324;
+                         background-repeat: repeat;
+                         /* background-size: initial; */
+                        }
+                        &:active{
+                            background-color: rgb(206, 203, 203);
+                            font-family: 'Times New Roman', Times, serif;
+                        
+                            position: relative;
+                            width: 100%;
+                            height: 60px;
+                            border-radius: 10px;
+                            outline: none;
+                            // background-color: #fff;
+                            color: #323435 ;
+                            font-size: 25px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            top: 0px;
+                            left: 0px;
+                        }
+                        &::before{
+                         content: '';
+                         position: absolute;
+                         bottom: -10px;
+                         left: -10px;
+                         right: -10px;
+                         top: -10px;
+                         background: inherit;
+                         border-radius: 10px;
+                         filter: blur(10px);
+                         opacity: 1;
+                         transition: opacity 0.5 s;
+                         z-index: -1;
+                     }
+                    }
+                   
+                    @keyframes blur{
+                        0%{
+                            background-position: 0;
+                        }
+                        100%{
+                            background-position: 100%;
+                        }
+                    }
+                    
+                }
+            
+        
+            }
+        }
+    }
+    .loader{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+        margin-left: -50px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        
+        svg{
+            width: 50%;
+            margin-left: 25%;
+            animation-name: loader;
+            animation-delay: 0.5s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+    }
+  
+    
+    @keyframes loader{
+     0%{
+         transform: rotate(0deg);
+     }
+     15%{
+         transform: rotate(-90deg);
+     }
+     30%{
+         transform: rotate(90deg);
+        }
+     45%{
+         transform: rotate(-180deg);
+        }
+     60%{
+         transform: rotate(180deg);
+        }
+     75%{
+         transform: -360deg;
+        }
+     90%{
+         transform: rotate(-90deg);
+        }
+     100%{
+         transform: rotate(360deg);
+        }
+    }
+}
+}

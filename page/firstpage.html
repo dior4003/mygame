@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>GameCity | World Game| Air Battle</title>
+    <meta name="description" content="Music, Musician, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+    <link rel="apple-touch-icon" href="../imeg/unnamed.png">
+    <meta name="apple-mobile-web-app-title" content="Flatkit">
+    <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" sizes="196x196" href="../imeg/unnamed.png">
+    <link rel="stylesheet" href="../css/second.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/firstpage.css">
+    <link rel="stylesheet" href="../css/icons-1.7.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    
+
+    <div class="container-fluit">
+
+        <p class="red1"></p>
+        
+        <i id="bulut" class="bi bi-cloudy-fill"></i>
+
+        <div class="resetAlert" id="module">
+            <div class="resetContent">
+                
+            </div>
+        </div>
+        <div id="result"></div>
+        <div id="modals">
+			<div class="item">
+				<ul id="menuList" class="list-group w-50">
+					<li id="playGame" class="list-group-item"><i class="bi bi-play-circle-fill"></i></li>
+					<li id="resetGame" onclick="GameOver()" class="list-group-item" ><i class="bi bi-arrow-repeat"></i></li>
+					<li id="settingGame" class="list-group-item"><i class="bi bi-gear-fill"></i></li>
+					<li id="info" class="list-group-item"><i class="bi bi-info-circle-fill"></i></li>
+					<li class="list-group-item"><a href="../index.html" class="btn"><i class="bi bi-box-arrow-right"></i></a></li>
+				</ul>
+				<div id="settingList">
+					<label for="Volume">Volume:</label>
+			
+					<select name="Volume" id="volume">
+						  <option value="0">None</option>
+						  <option value="2">Min</option>
+						  <option value="6">Normal</option>
+						  <option value="10">Max</option>
+					</select>
+					<span id="nazadSetting" class="btn "><i class="bi bi-arrow-left-square"></i></span>
+				</div>
+				<div id="sliderwov" class="slideshow-container">
+
+					<div class="mySlides ">
+						<div class="numbertext">1 / 4</div>
+						<img src="../imeg/page/batl1.bmp" style="width:100%">
+						<div class="text">This game is between the Air Force and 
+                            you have to hit your opponent's hidden coordinates.
+						</div>
+					</div>
+
+					<div class="mySlides ">
+					  <div class="numbertext">2 / 4</div>
+					  <img src="../imeg/page/batl2.bmp" style="width:100%">
+					  <div class="text">Enter your coordinates in the view below.!</div>
+					</div>
+					
+					<div class="mySlides ">
+					  <div class="numbertext">3 / 4</div>
+					  <img src="../imeg/page/batl3.bmp" style="width:100%">
+					  <div class="text">The coordinates of the view inside 
+                          the circle marked in red are correct. The coordinates 
+                          inside the circle separated by the blue color were 
+                          found to be incorrect.</div>
+					</div>
+					
+					<div class="mySlides ">
+					  <div class="numbertext">4 / 4</div>
+					  <img src="../imeg/page/batl4.bmp" style="width:100%">
+					  <div class="text">To win, you must first find 10 correct coordinates. 
+                          This is where the player wins.!</div>
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<span id="nazad"><i class="bi bi-arrow-left-square"></i></span>
+				</div>
+					
+
+			</div>
+		</div>
+		
+		<div id="modaal" class="modaal">
+			<div class="proValue">
+				<h1>Let's start the game</h1>
+                <i class="bi bi-exclamation-triangle"></i>
+                <span id="go" class="btn btn-success">Start</span>
+			</div>
+			
+			
+		</div>
+        <div class="row">
+            
+            <div class="col ">
+                <button id="menu"   class="btn btn-outline"><i class="bi bi-windows"></i></button>
+                
+                <span class="playertank"><i id="playerover" ></i></span>
+                <div class="player">
+                    
+                    
+                   
+                   
+                    <label for="playerScore">Player score: <span id="playerScore" value="0">0</span></label>
+                
+                
+                    <div class="buttons-group ">
+                        <button class="btn playerValueBtn btn-outline" name='player25' onclick='playerPushValue(0)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player1'  onclick='playerPushValue(1)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player2'  onclick='playerPushValue(2)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player3'  onclick='playerPushValue(3)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player4'  onclick='playerPushValue(4)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player5'  onclick='playerPushValue(5)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player6'  onclick='playerPushValue(6)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player7'  onclick='playerPushValue(7)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player8'  onclick='playerPushValue(8)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player9'  onclick='playerPushValue(9)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player10' onclick='playerPushValue(10)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player11' onclick='playerPushValue(11)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player12' onclick='playerPushValue(12)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player13' onclick='playerPushValue(13)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player14' onclick='playerPushValue(14)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player15' onclick='playerPushValue(15)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player16' onclick='playerPushValue(16)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player17' onclick='playerPushValue(17)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player18' onclick='playerPushValue(18)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player19' onclick='playerPushValue(19)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player20' onclick='playerPushValue(20)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player21' onclick='playerPushValue(21)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player22' onclick='playerPushValue(22)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player23' onclick='playerPushValue(23)'></button>
+                        <button class="btn playerValueBtn btn-outline" name='player24' onclick='playerPushValue(24)'></button>
+                        
+                   
+                    </div>
+                </div>
+                
+                <!-- <img src="../imeg/dice-clip-art-21.png" alt=""> -->
+            </div>
+            <div class="col computer1">
+               <div></div>
+               <span class="computertank"><i id="computerover"></i></span>
+                <div class="computer">
+                    <label for="computerScore">Computer score: <span id="computerScore" value="0">0</span></label>
+                    
+                    <div class="buttons-group">
+                        <button class="btn computerValueBtn btn-outline" onclick="go(0)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(1)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(2)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(3)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(4)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(5)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(6)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(7)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(8)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(9)" ></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(10)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(11)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(12)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(13)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(14)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(15)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(16)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(17)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(18)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(19)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(20)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(21)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(22)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(23)"></button>
+                        <button class="btn computerValueBtn btn-outline" onclick="go(24)"></button>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="playlist" class="hidden">
+		<li song="Sample.mp3" >Sample.mp3</li>
+		<li song="draw.wav" >Sample.mp3</li>
+		<li song="win.mp3" >Sample.mp3</li>
+		<li song="lose.mp3" >Sample.mp3</li>
+		<li song="Sample.mp3" >Sample.mp3</li>
+	</ul>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="../js/scipt.js"></script>
+    <!-- <script src="../js/second.js"></script> -->
+</body>
+</html>

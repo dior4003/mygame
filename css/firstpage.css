@@ -1,0 +1,5222 @@
+#bulut {
+  position: absolute;
+  font-size: 100px;
+  color: #fff;
+  top: 10px;
+  left: 40%;
+}
+
+@media (max-width: 2000px) {
+  body .container-fluit {
+    padding: 0;
+    border: 3px solid #302a2a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #10f2fa;
+  }
+  body .container-fluit .resetAlert {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.589);
+    z-index: 6;
+    overflow: hidden;
+    display: none;
+  }
+  body .container-fluit .resetAlert .resetContent {
+    width: 700px;
+    height: 70vh;
+    background: #13641a;
+    overflow: hidden;
+    border: 2px solid #3f3e3e;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+  body .container-fluit .resetAlert .resetContent .contentTit {
+    color: #fdfdfd;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetOk {
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetCancel {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 100vh;
+  }
+  body .container-fluit .row .col button {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  body .container-fluit .row .col button i {
+    color: #fff;
+    width: 20px;
+  }
+  body .container-fluit .row .col .playertank {
+    width: 80px;
+    height: 80px;
+    background: url(../imeg/plsamaliyot.png) no-repeat;
+    background-size: 80px 60px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .playertank .playerover0 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn1;
+            animation-name: playerbtn1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn2;
+            animation-name: playerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn3;
+            animation-name: playerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn4;
+            animation-name: playerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn5;
+            animation-name: playerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn6;
+            animation-name: playerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn7;
+            animation-name: playerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn8;
+            animation-name: playerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn9;
+            animation-name: playerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover9 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn10;
+            animation-name: playerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover10 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn11;
+            animation-name: playerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover11 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn12;
+            animation-name: playerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover12 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn13;
+            animation-name: playerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover13 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn14;
+            animation-name: playerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover14 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn15;
+            animation-name: playerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover15 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn16;
+            animation-name: playerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover16 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn17;
+            animation-name: playerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover17 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn18;
+            animation-name: playerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover18 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn19;
+            animation-name: playerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover19 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn20;
+            animation-name: playerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover20 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn21;
+            animation-name: playerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover21 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn22;
+            animation-name: playerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover22 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn23;
+            animation-name: playerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover23 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn24;
+            animation-name: playerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover24 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn25;
+            animation-name: playerbtn25;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .player {
+    height: 100vh;
+    width: 220px;
+    position: absolute;
+    bottom: -200px;
+    left: 200px;
+  }
+  body .container-fluit .row .col .player label {
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .player .buttons-group {
+    height: 70vh;
+  }
+  body .container-fluit .row .col .player .buttons-group button {
+    padding: 0;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 100vh;
+  }
+  body .container-fluit .row .col div {
+    height: 35px;
+  }
+  body .container-fluit .row .col .computertank {
+    width: 80px;
+    height: 80px;
+    background: url(../imeg/computersamaliyot.png) no-repeat;
+    background-size: 80px 60px;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .computertank .computerover0 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: playerover0;
+            animation-name: playerover0;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: playerover1;
+            animation-name: playerover1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn2;
+            animation-name: computerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn3;
+            animation-name: computerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn4;
+            animation-name: computerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn5;
+            animation-name: computerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn6;
+            animation-name: computerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn7;
+            animation-name: computerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn8;
+            animation-name: computerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover9 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn9;
+            animation-name: computerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover10 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn10;
+            animation-name: computerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover11 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn11;
+            animation-name: computerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover12 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn12;
+            animation-name: computerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover13 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn13;
+            animation-name: computerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover14 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn14;
+            animation-name: computerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover15 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn15;
+            animation-name: computerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover16 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn16;
+            animation-name: computerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover17 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn17;
+            animation-name: computerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover18 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn18;
+            animation-name: computerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover19 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn19;
+            animation-name: computerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover20 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn20;
+            animation-name: computerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover21 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn21;
+            animation-name: computerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover22 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn22;
+            animation-name: computerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover23 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn23;
+            animation-name: computerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover24 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn24;
+            animation-name: computerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computer {
+    height: 100vh;
+    width: 220px;
+    position: absolute;
+    bottom: -200px;
+    right: 200px;
+  }
+  body .container-fluit .row .col .computer label {
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .computer .buttons-group {
+    height: 70%;
+  }
+  body .container-fluit .row .col .computer .buttons-group button {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 9px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+}
+
+@media (max-width: 1200px) {
+  body .container-fluit {
+    padding: 0;
+    border: 3px solid #302a2a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #10f2fa;
+  }
+  body .container-fluit .resetAlert {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.589);
+    z-index: 6;
+    overflow: hidden;
+    display: none;
+  }
+  body .container-fluit .resetAlert .resetContent {
+    width: 700px;
+    height: 70vh;
+    background: #13641a;
+    overflow: hidden;
+    border: 2px solid #3f3e3e;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+  body .container-fluit .resetAlert .resetContent .contentTit {
+    color: #fdfdfd;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetOk {
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetCancel {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 100vh;
+  }
+  body .container-fluit .row .col button {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  body .container-fluit .row .col button i {
+    color: #fff;
+    width: 20px;
+  }
+  body .container-fluit .row .col .playertank {
+    width: 80px;
+    height: 80px;
+    background: url(../imeg/plsamaliyot.png) no-repeat;
+    background-size: 80px 60px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .playertank .playerover0 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn1;
+            animation-name: playerbtn1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn2;
+            animation-name: playerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn3;
+            animation-name: playerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn4;
+            animation-name: playerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn5;
+            animation-name: playerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn6;
+            animation-name: playerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn7;
+            animation-name: playerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn8;
+            animation-name: playerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn9;
+            animation-name: playerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover9 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn10;
+            animation-name: playerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover10 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn11;
+            animation-name: playerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover11 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn12;
+            animation-name: playerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover12 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn13;
+            animation-name: playerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover13 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn14;
+            animation-name: playerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover14 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn15;
+            animation-name: playerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover15 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn16;
+            animation-name: playerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover16 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn17;
+            animation-name: playerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover17 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn18;
+            animation-name: playerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover18 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn19;
+            animation-name: playerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover19 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn20;
+            animation-name: playerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover20 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn21;
+            animation-name: playerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover21 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn22;
+            animation-name: playerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover22 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn23;
+            animation-name: playerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover23 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn24;
+            animation-name: playerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover24 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    -webkit-animation-name: playerbtn25;
+            animation-name: playerbtn25;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .player {
+    height: 100vh;
+    width: 220px;
+    position: absolute;
+    bottom: -200px;
+    left: 200px;
+  }
+  body .container-fluit .row .col .player label {
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .player .buttons-group {
+    height: 70vh;
+  }
+  body .container-fluit .row .col .player .buttons-group button {
+    padding: 0;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 100vh;
+  }
+  body .container-fluit .row .col div {
+    height: 35px;
+  }
+  body .container-fluit .row .col .computertank {
+    width: 80px;
+    height: 80px;
+    background: url(../imeg/computersamaliyot.png) no-repeat;
+    background-size: 80px 60px;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .computertank .computerover0 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: playerover0;
+            animation-name: playerover0;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: playerover1;
+            animation-name: playerover1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn2;
+            animation-name: computerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn3;
+            animation-name: computerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn4;
+            animation-name: computerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn5;
+            animation-name: computerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn6;
+            animation-name: computerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn7;
+            animation-name: computerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover8 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn8;
+            animation-name: computerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover9 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn9;
+            animation-name: computerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover10 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn10;
+            animation-name: computerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover11 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn11;
+            animation-name: computerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover12 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn12;
+            animation-name: computerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover13 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn13;
+            animation-name: computerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover14 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn14;
+            animation-name: computerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover15 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn15;
+            animation-name: computerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover16 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn16;
+            animation-name: computerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover17 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn17;
+            animation-name: computerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover18 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn18;
+            animation-name: computerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover19 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn19;
+            animation-name: computerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover20 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn20;
+            animation-name: computerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover21 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn21;
+            animation-name: computerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover22 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn22;
+            animation-name: computerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover23 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn23;
+            animation-name: computerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover24 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn24;
+            animation-name: computerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computer {
+    height: 100vh;
+    width: 220px;
+    position: absolute;
+    bottom: -200px;
+    right: 200px;
+  }
+  body .container-fluit .row .col .computer label {
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .computer .buttons-group {
+    height: 70%;
+  }
+  body .container-fluit .row .col .computer .buttons-group button {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 9px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+}
+
+@media (max-width: 900px) {
+  body .container-fluit {
+    padding: 0;
+    border: 3px solid #302a2a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #10f2fa;
+  }
+  body .container-fluit .resetAlert {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.589);
+    z-index: 6;
+    overflow: hidden;
+    display: none;
+  }
+  body .container-fluit .resetAlert .resetContent {
+    width: 700px;
+    height: 70vh;
+    background: #13641a;
+    overflow: hidden;
+    border: 2px solid #3f3e3e;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+  }
+  body .container-fluit .resetAlert .resetContent .contentTit {
+    color: #fdfdfd;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetOk {
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+  }
+  body .container-fluit .resetAlert .resetContent .resetCancel {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 80vh;
+  }
+  body .container-fluit .row .col button {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  body .container-fluit .row .col button i {
+    color: #fff;
+    width: 20px;
+  }
+  body .container-fluit .row .col .playertank {
+    width: 40px;
+    height: 40px;
+    background: url(../imeg/plsamaliyot.png) no-repeat;
+    background-size: 40px 30px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .playertank .playerover0 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn1;
+            animation-name: playerbtn1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover1 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn2;
+            animation-name: playerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover2 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn3;
+            animation-name: playerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover3 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn4;
+            animation-name: playerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover4 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn5;
+            animation-name: playerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover5 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn6;
+            animation-name: playerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover6 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn7;
+            animation-name: playerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover7 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn8;
+            animation-name: playerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover8 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn9;
+            animation-name: playerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover9 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn10;
+            animation-name: playerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover10 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn11;
+            animation-name: playerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover11 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn12;
+            animation-name: playerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover12 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn13;
+            animation-name: playerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover13 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn14;
+            animation-name: playerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover14 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn15;
+            animation-name: playerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover15 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn16;
+            animation-name: playerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover16 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn17;
+            animation-name: playerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover17 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn18;
+            animation-name: playerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover18 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn19;
+            animation-name: playerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover19 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn20;
+            animation-name: playerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover20 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn21;
+            animation-name: playerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover21 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn22;
+            animation-name: playerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover22 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn23;
+            animation-name: playerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover23 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn24;
+            animation-name: playerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .playertank .playerover24 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    -webkit-animation-name: playerbtn25;
+            animation-name: playerbtn25;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  body .container-fluit .row .col .player {
+    height: 260px;
+    width: 220px;
+    position: absolute;
+    bottom: -80px;
+    left: 60px;
+  }
+  body .container-fluit .row .col .player label {
+    font-size: 15px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .player .buttons-group {
+    width: 120px;
+    padding: 0;
+  }
+  body .container-fluit .row .col .player .buttons-group button {
+    padding: 0;
+    font-size: 6px;
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 15px;
+    height: 15px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+  body .container-fluit .row {
+    width: 100%;
+    height: 100vh;
+  }
+  body .container-fluit .row .col div {
+    height: 35px;
+  }
+  body .container-fluit .row .col .computertank {
+    width: 40px;
+    height: 40px;
+    background: url(../imeg/computersamaliyot.png) no-repeat;
+    background-size: 40px 30px;
+    position: absolute;
+    bottom: 70px;
+    right: 25px;
+    z-index: 3;
+  }
+  body .container-fluit .row .col .computertank .computerover0 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn0;
+            animation-name: computerbtn0;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover1 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn1;
+            animation-name: computerbtn1;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover2 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn2;
+            animation-name: computerbtn2;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover3 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn3;
+            animation-name: computerbtn3;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover4 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn4;
+            animation-name: computerbtn4;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover5 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn5;
+            animation-name: computerbtn5;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover6 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn6;
+            animation-name: computerbtn6;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover7 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn7;
+            animation-name: computerbtn7;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover8 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn8;
+            animation-name: computerbtn8;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover9 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn9;
+            animation-name: computerbtn9;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover10 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn10;
+            animation-name: computerbtn10;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover11 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn11;
+            animation-name: computerbtn11;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover12 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn12;
+            animation-name: computerbtn12;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover13 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn13;
+            animation-name: computerbtn13;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover14 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn14;
+            animation-name: computerbtn14;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover15 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn15;
+            animation-name: computerbtn15;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover16 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn16;
+            animation-name: computerbtn16;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover17 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn17;
+            animation-name: computerbtn17;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover18 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn18;
+            animation-name: computerbtn18;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover19 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn19;
+            animation-name: computerbtn19;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover20 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn20;
+            animation-name: computerbtn20;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover21 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn21;
+            animation-name: computerbtn21;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover22 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn22;
+            animation-name: computerbtn22;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover23 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn23;
+            animation-name: computerbtn23;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computertank .computerover24 {
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    -webkit-animation-name: computerbtn24;
+            animation-name: computerbtn24;
+    /* animation-delay: 0.4s; */
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+  }
+  body .container-fluit .row .col .computer {
+    height: 260px;
+    width: 220px;
+    position: absolute;
+    bottom: -80px;
+    right: 0px;
+  }
+  body .container-fluit .row .col .computer label {
+    font-size: 15px;
+    color: red;
+    font-family: sans-serif 'Times New Roman', Times, serif;
+  }
+  body .container-fluit .row .col .computer .buttons-group {
+    width: 120px;
+    padding: 0;
+  }
+  body .container-fluit .row .col .computer .buttons-group button {
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: 4px;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    background: inherit;
+    border-radius: 0;
+    border: 2px solid #099b93;
+  }
+  @-webkit-keyframes computerbtn0 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 310px;
+    }
+  }
+  @keyframes computerbtn0 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 310px;
+    }
+  }
+  @-webkit-keyframes computerbtn1 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 330px;
+    }
+  }
+  @keyframes computerbtn1 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 330px;
+    }
+  }
+  @-webkit-keyframes computerbtn2 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 350px;
+    }
+  }
+  @keyframes computerbtn2 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 350px;
+    }
+  }
+  @-webkit-keyframes computerbtn3 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 370px;
+    }
+  }
+  @keyframes computerbtn3 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 370px;
+    }
+  }
+  @-webkit-keyframes computerbtn4 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 390px;
+    }
+  }
+  @keyframes computerbtn4 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 35px;
+      right: 390px;
+    }
+  }
+  @-webkit-keyframes computerbtn5 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 310px;
+    }
+  }
+  @keyframes computerbtn5 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 310px;
+    }
+  }
+  @-webkit-keyframes computerbtn6 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 330px;
+    }
+  }
+  @keyframes computerbtn6 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 330px;
+    }
+  }
+  @-webkit-keyframes computerbtn7 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 350px;
+    }
+  }
+  @keyframes computerbtn7 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 350px;
+    }
+  }
+  @-webkit-keyframes computerbtn8 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 370px;
+    }
+  }
+  @keyframes computerbtn8 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 370px;
+    }
+  }
+  @-webkit-keyframes computerbtn9 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 390px;
+    }
+  }
+  @keyframes computerbtn9 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 15px;
+      right: 390px;
+    }
+  }
+  @-webkit-keyframes computerbtn10 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 310px;
+    }
+  }
+  @keyframes computerbtn10 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 310px;
+    }
+  }
+  @-webkit-keyframes computerbtn11 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 330px;
+    }
+  }
+  @keyframes computerbtn11 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 330px;
+    }
+  }
+  @-webkit-keyframes computerbtn12 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 350px;
+    }
+  }
+  @keyframes computerbtn12 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 350px;
+    }
+  }
+  @-webkit-keyframes computerbtn13 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 370px;
+    }
+  }
+  @keyframes computerbtn13 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 370px;
+    }
+  }
+  @-webkit-keyframes computerbtn14 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 390px;
+    }
+  }
+  @keyframes computerbtn14 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: 0px;
+      right: 390px;
+    }
+  }
+  @-webkit-keyframes computerbtn15 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 310px;
+    }
+  }
+  @keyframes computerbtn15 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 310px;
+    }
+  }
+  @-webkit-keyframes computerbtn16 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 330px;
+    }
+  }
+  @keyframes computerbtn16 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 330px;
+    }
+  }
+  @-webkit-keyframes computerbtn17 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 350px;
+    }
+  }
+  @keyframes computerbtn17 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 350px;
+    }
+  }
+  @-webkit-keyframes computerbtn18 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 370px;
+    }
+  }
+  @keyframes computerbtn18 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 370px;
+    }
+  }
+  @-webkit-keyframes computerbtn19 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 390px;
+    }
+  }
+  @keyframes computerbtn19 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -15px;
+      right: 390px;
+    }
+  }
+  @-webkit-keyframes computerbtn20 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 310px;
+    }
+  }
+  @keyframes computerbtn20 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 310px;
+    }
+  }
+  @-webkit-keyframes computerbtn21 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 330px;
+    }
+  }
+  @keyframes computerbtn21 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 330px;
+    }
+  }
+  @-webkit-keyframes computerbtn22 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 350px;
+    }
+  }
+  @keyframes computerbtn22 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 350px;
+    }
+  }
+  @-webkit-keyframes computerbtn23 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 370px;
+    }
+  }
+  @keyframes computerbtn23 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 370px;
+    }
+  }
+  @-webkit-keyframes computerbtn24 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 390px;
+    }
+  }
+  @keyframes computerbtn24 {
+    0% {
+      bottom: 0px;
+      right: 0px;
+    }
+    100% {
+      bottom: -35px;
+      right: 390px;
+    }
+  }
+  @-webkit-keyframes playerbtn1 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 310px;
+    }
+  }
+  @keyframes playerbtn1 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 310px;
+    }
+  }
+  @-webkit-keyframes playerbtn2 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 330px;
+    }
+  }
+  @keyframes playerbtn2 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 330px;
+    }
+  }
+  @-webkit-keyframes playerbtn3 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 350px;
+    }
+  }
+  @keyframes playerbtn3 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 350px;
+    }
+  }
+  @-webkit-keyframes playerbtn4 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 370px;
+    }
+  }
+  @keyframes playerbtn4 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 370px;
+    }
+  }
+  @-webkit-keyframes playerbtn5 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 390px;
+    }
+  }
+  @keyframes playerbtn5 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 35px;
+      left: 390px;
+    }
+  }
+  @-webkit-keyframes playerbtn6 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 310px;
+    }
+  }
+  @keyframes playerbtn6 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 310px;
+    }
+  }
+  @-webkit-keyframes playerbtn7 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 330px;
+    }
+  }
+  @keyframes playerbtn7 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 330px;
+    }
+  }
+  @-webkit-keyframes playerbtn8 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 350px;
+    }
+  }
+  @keyframes playerbtn8 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 350px;
+    }
+  }
+  @-webkit-keyframes playerbtn9 {
+    0% {
+      bottom: 0px;
+      left: 70px;
+    }
+    100% {
+      bottom: 15px;
+      left: 370px;
+    }
+  }
+  @keyframes playerbtn9 {
+    0% {
+      bottom: 0px;
+      left: 70px;
+    }
+    100% {
+      bottom: 15px;
+      left: 370px;
+    }
+  }
+  @-webkit-keyframes playerbtn10 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 390px;
+    }
+  }
+  @keyframes playerbtn10 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 15px;
+      left: 390px;
+    }
+  }
+  @-webkit-keyframes playerbtn11 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 310px;
+    }
+  }
+  @keyframes playerbtn11 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 310px;
+    }
+  }
+  @-webkit-keyframes playerbtn12 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 330px;
+    }
+  }
+  @keyframes playerbtn12 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 330px;
+    }
+  }
+  @-webkit-keyframes playerbtn13 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 350px;
+    }
+  }
+  @keyframes playerbtn13 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 350px;
+    }
+  }
+  @-webkit-keyframes playerbtn14 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 370px;
+    }
+  }
+  @keyframes playerbtn14 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 370px;
+    }
+  }
+  @-webkit-keyframes playerbtn15 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 390px;
+    }
+  }
+  @keyframes playerbtn15 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: 0px;
+      left: 390px;
+    }
+  }
+  @-webkit-keyframes playerbtn16 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 310px;
+    }
+  }
+  @keyframes playerbtn16 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 310px;
+    }
+  }
+  @-webkit-keyframes playerbtn17 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 330px;
+    }
+  }
+  @keyframes playerbtn17 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 330px;
+    }
+  }
+  @-webkit-keyframes playerbtn18 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 350px;
+    }
+  }
+  @keyframes playerbtn18 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 350px;
+    }
+  }
+  @-webkit-keyframes playerbtn19 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 370px;
+    }
+  }
+  @keyframes playerbtn19 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 370px;
+    }
+  }
+  @-webkit-keyframes playerbtn20 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 390px;
+    }
+  }
+  @keyframes playerbtn20 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -15px;
+      left: 390px;
+    }
+  }
+  @-webkit-keyframes playerbtn21 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 310px;
+    }
+  }
+  @keyframes playerbtn21 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 310px;
+    }
+  }
+  @-webkit-keyframes playerbtn22 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 330px;
+    }
+  }
+  @keyframes playerbtn22 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 330px;
+    }
+  }
+  @-webkit-keyframes playerbtn23 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 350px;
+    }
+  }
+  @keyframes playerbtn23 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 350px;
+    }
+  }
+  @-webkit-keyframes playerbtn24 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 370px;
+    }
+  }
+  @keyframes playerbtn24 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 370px;
+    }
+  }
+  @-webkit-keyframes playerbtn25 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 390px;
+    }
+  }
+  @keyframes playerbtn25 {
+    0% {
+      bottom: 0px;
+      left: 0px;
+    }
+    100% {
+      bottom: -35px;
+      left: 390px;
+    }
+  }
+}
+
+body {
+  padding: 0;
+}
+
+@-webkit-keyframes computerbtn1 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 585px;
+  }
+}
+
+@keyframes computerbtn1 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 585px;
+  }
+}
+
+@-webkit-keyframes computerbtn2 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 625px;
+  }
+}
+
+@keyframes computerbtn2 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 625px;
+  }
+}
+
+@-webkit-keyframes computerbtn3 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 670px;
+  }
+}
+
+@keyframes computerbtn3 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 670px;
+  }
+}
+
+@-webkit-keyframes computerbtn4 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 715px;
+  }
+}
+
+@keyframes computerbtn4 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 98px;
+    right: 715px;
+  }
+}
+
+@-webkit-keyframes computerbtn5 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 535px;
+  }
+}
+
+@keyframes computerbtn5 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 535px;
+  }
+}
+
+@-webkit-keyframes computerbtn6 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 585px;
+  }
+}
+
+@keyframes computerbtn6 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 585px;
+  }
+}
+
+@-webkit-keyframes computerbtn7 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 625px;
+  }
+}
+
+@keyframes computerbtn7 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 625px;
+  }
+}
+
+@-webkit-keyframes computerbtn8 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 670px;
+  }
+}
+
+@keyframes computerbtn8 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 670px;
+  }
+}
+
+@-webkit-keyframes computerbtn9 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 715px;
+  }
+}
+
+@keyframes computerbtn9 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 58px;
+    right: 715px;
+  }
+}
+
+@-webkit-keyframes computerbtn10 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 535px;
+  }
+}
+
+@keyframes computerbtn10 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 535px;
+  }
+}
+
+@-webkit-keyframes computerbtn11 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 585px;
+  }
+}
+
+@keyframes computerbtn11 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 585px;
+  }
+}
+
+@-webkit-keyframes computerbtn12 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 625px;
+  }
+}
+
+@keyframes computerbtn12 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 625px;
+  }
+}
+
+@-webkit-keyframes computerbtn13 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 670px;
+  }
+}
+
+@keyframes computerbtn13 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 670px;
+  }
+}
+
+@-webkit-keyframes computerbtn14 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 715px;
+  }
+}
+
+@keyframes computerbtn14 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: 18px;
+    right: 715px;
+  }
+}
+
+@-webkit-keyframes computerbtn15 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 535px;
+  }
+}
+
+@keyframes computerbtn15 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 535px;
+  }
+}
+
+@-webkit-keyframes computerbtn16 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 585px;
+  }
+}
+
+@keyframes computerbtn16 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 585px;
+  }
+}
+
+@-webkit-keyframes computerbtn17 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 625px;
+  }
+}
+
+@keyframes computerbtn17 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 625px;
+  }
+}
+
+@-webkit-keyframes computerbtn18 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 670px;
+  }
+}
+
+@keyframes computerbtn18 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 670px;
+  }
+}
+
+@-webkit-keyframes computerbtn19 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 715px;
+  }
+}
+
+@keyframes computerbtn19 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -22px;
+    right: 715px;
+  }
+}
+
+@-webkit-keyframes computerbtn20 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 535px;
+  }
+}
+
+@keyframes computerbtn20 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 535px;
+  }
+}
+
+@-webkit-keyframes computerbtn21 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 585px;
+  }
+}
+
+@keyframes computerbtn21 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 585px;
+  }
+}
+
+@-webkit-keyframes computerbtn22 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 625px;
+  }
+}
+
+@keyframes computerbtn22 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 625px;
+  }
+}
+
+@-webkit-keyframes computerbtn23 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 670px;
+  }
+}
+
+@keyframes computerbtn23 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 670px;
+  }
+}
+
+@-webkit-keyframes computerbtn24 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 715px;
+  }
+}
+
+@keyframes computerbtn24 {
+  0% {
+    bottom: 30px;
+    right: 70px;
+  }
+  100% {
+    bottom: -62px;
+    right: 715px;
+  }
+}
+
+@-webkit-keyframes playerbtn1 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 535px;
+  }
+}
+
+@keyframes playerbtn1 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 535px;
+  }
+}
+
+@-webkit-keyframes playerbtn2 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 585px;
+  }
+}
+
+@keyframes playerbtn2 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes playerbtn3 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 625px;
+  }
+}
+
+@keyframes playerbtn3 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 625px;
+  }
+}
+
+@-webkit-keyframes playerbtn4 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 670px;
+  }
+}
+
+@keyframes playerbtn4 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 670px;
+  }
+}
+
+@-webkit-keyframes playerbtn5 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 715px;
+  }
+}
+
+@keyframes playerbtn5 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 98px;
+    left: 715px;
+  }
+}
+
+@-webkit-keyframes playerbtn6 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 535px;
+  }
+}
+
+@keyframes playerbtn6 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 535px;
+  }
+}
+
+@-webkit-keyframes playerbtn7 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 585px;
+  }
+}
+
+@keyframes playerbtn7 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes playerbtn8 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 625px;
+  }
+}
+
+@keyframes playerbtn8 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 625px;
+  }
+}
+
+@-webkit-keyframes playerbtn9 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 670px;
+  }
+}
+
+@keyframes playerbtn9 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 670px;
+  }
+}
+
+@-webkit-keyframes playerbtn10 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 715px;
+  }
+}
+
+@keyframes playerbtn10 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 58px;
+    left: 715px;
+  }
+}
+
+@-webkit-keyframes playerbtn11 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 535px;
+  }
+}
+
+@keyframes playerbtn11 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 535px;
+  }
+}
+
+@-webkit-keyframes playerbtn12 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 585px;
+  }
+}
+
+@keyframes playerbtn12 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes playerbtn13 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 625px;
+  }
+}
+
+@keyframes playerbtn13 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 625px;
+  }
+}
+
+@-webkit-keyframes playerbtn14 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 670px;
+  }
+}
+
+@keyframes playerbtn14 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 670px;
+  }
+}
+
+@-webkit-keyframes playerbtn15 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 715px;
+  }
+}
+
+@keyframes playerbtn15 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: 18px;
+    left: 715px;
+  }
+}
+
+@-webkit-keyframes playerbtn16 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 535px;
+  }
+}
+
+@keyframes playerbtn16 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 535px;
+  }
+}
+
+@-webkit-keyframes playerbtn17 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 585px;
+  }
+}
+
+@keyframes playerbtn17 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes playerbtn18 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 625px;
+  }
+}
+
+@keyframes playerbtn18 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 625px;
+  }
+}
+
+@-webkit-keyframes playerbtn19 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 670px;
+  }
+}
+
+@keyframes playerbtn19 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 670px;
+  }
+}
+
+@-webkit-keyframes playerbtn20 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 715px;
+  }
+}
+
+@keyframes playerbtn20 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -22px;
+    left: 715px;
+  }
+}
+
+@-webkit-keyframes playerbtn21 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 535px;
+  }
+}
+
+@keyframes playerbtn21 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 535px;
+  }
+}
+
+@-webkit-keyframes playerbtn22 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 585px;
+  }
+}
+
+@keyframes playerbtn22 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes playerbtn23 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 625px;
+  }
+}
+
+@keyframes playerbtn23 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 625px;
+  }
+}
+
+@-webkit-keyframes playerbtn24 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 670px;
+  }
+}
+
+@keyframes playerbtn24 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 670px;
+  }
+}
+
+@-webkit-keyframes playerbtn25 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 715px;
+  }
+}
+
+@keyframes playerbtn25 {
+  0% {
+    bottom: 30px;
+    left: 70px;
+  }
+  100% {
+    bottom: -62px;
+    left: 715px;
+  }
+}
+/*# sourceMappingURL=firstpage.css.map */

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>GameCity | World Game| X vs O</title>
+	<meta name="description" content="Music, Musician, Bootstrap" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+	<!-- for ios 7 style, multi-resolution icon of 152x152 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+	<link rel="apple-touch-icon" href="../imeg/unnamed.png">
+	<meta name="apple-mobile-web-app-title" content="Flatkit">
+	<!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" sizes="196x196" href="../imeg/unnamed.png">
+	
+	<link rel="stylesheet" href="../css/second.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/icons-1.7.1/font/bootstrap-icons.css">
+</head>
+		
+<body >
+
+	
+
+	
+
+	<div class="gameBody container-fluit row-col" >
+		<div id="modals">
+			<div class="item">
+				<ul id="menuList" class="list-group w-50">
+					<li id="playGame" class="list-group-item"><i class="bi bi-play-circle-fill"></i></li>
+					<li id="resetGame" class="list-group-item" ><i class="bi bi-arrow-repeat"></i></li>
+					<li id="settingGame" class="list-group-item"><i class="bi bi-gear-fill"></i></li>
+					<li id="info" class="list-group-item"><i class="bi bi-info-circle-fill"></i></li>
+					<li class="list-group-item"><a href="../index.html" class="btn"><i class="bi bi-box-arrow-right"></i></a></li>
+				</ul>
+				<div id="settingList">
+					<label for="Volume">Volume:</label>
+			
+					<select name="Volume" id="volume">
+						  <option value="0">None</option>
+						  <option value="2">Min</option>
+						  <option value="6">Normal</option>
+						  <option value="10">Max</option>
+					</select>
+					<span id="nazadSetting" class="btn "><i class="bi bi-arrow-left-square"></i></span>
+				</div>
+				<div id="sliderwov" class="slideshow-container">
+
+					<div class="mySlides ">
+						<div class="numbertext">1 / 4</div>
+						<img src="../imeg/page/unnamed.png" style="width:100%">
+						<div class="text">This game is between x and o. The condition of
+							 this game is that the team that draws the straight line first wins.
+						</div>
+					</div>
+
+					<div class="mySlides ">
+					  <div class="numbertext">2 / 4</div>
+					  <img src="../imeg/page/rasm1.bmp" style="width:100%">
+					  <div class="text">You select one of the desired cells!</div>
+					</div>
+					
+					<div class="mySlides ">
+					  <div class="numbertext">3 / 4</div>
+					  <img src="../imeg/page/rasm2.bmp" style="width:100%">
+					  <div class="text">And your opponent's turn comes. You continue in this sequence.</div>
+					</div>
+					
+					<div class="mySlides ">
+					  <div class="numbertext">4 / 4</div>
+					  <img src="../imeg/page/rasm3.bmp" style="width:100%">
+					  <div class="text">It looks like this to win. Here the player won!</div>
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<span id="nazad"><i class="bi bi-arrow-left-square"></i></span>
+				</div>
+					
+
+			</div>
+		</div>
+		
+		<div id="modaal" class="modaal">
+			<div class="proValue row">
+				
+			</div>
+			
+			
+		</div>
+		
+		<button id="menu"   class="btn btn-outline menu"><i class="bi bi-windows"></i></button>
+		
+				<div class="table">
+		
+					<table BORDER="0" CELLSPACING="0">
+					  <tr>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole0" onClick="Place(0)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole1" onClick="Place(1)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole2" onClick="Place(2)"></td>
+					  </tr>
+					  <tr>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole3" onClick="Place(3)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole4" onClick="Place(4)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole5" onClick="Place(5)"></td>
+					  </tr>
+					  <tr>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole6" onClick="Place(6)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole7" onClick="Place(7)"></td>
+						<td class="center"><img SRC="../imeg/bgtable.png" NAME="pole8" onClick="Place(8)"></td>
+					  </tr>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+	</div>
+	<ul id="playlist" class="hidden">
+		<li song="Sample.mp3" >Sample.mp3</li>
+		<li song="draw.wav" >Sample.mp3</li>
+		<li song="win.mp3" >Sample.mp3</li>
+		<li song="lose.mp3" >Sample.mp3</li>
+		<li song="Sample.mp3" >Sample.mp3</li>
+	</ul>
+	
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
+		
+	
+		
+	<script src="../js/first.js"></script>
+	
+</body>
+	
+
+</html>

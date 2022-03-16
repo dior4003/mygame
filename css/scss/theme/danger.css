@@ -1,0 +1,29 @@
+/* 
+
+*/
+.text-primary,
+.text-primary-hover a:hover,
+.text-primary-hover .active > a {
+  color: coral !important;
+}
+
+.nav-active-primary .nav-link.active,
+.nav-active-primary .nav > li.active > a,
+.btn.primary,
+.btn.b-primary:hover,
+.btn.b-primary:focus,
+.mejs-controls .mejs-playpause-button button,
+.pace .pace-progress {
+  background-color: coral !important;
+}
+
+.b-primary,
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  border-color: coral;
+}
+
+.mejs-error {
+  background-color: coral;
+  border-color: coral;
+}
+/*# sourceMappingURL=danger.css.map */

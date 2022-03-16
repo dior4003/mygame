@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,GAAG,EAAE,CAAA;EACd,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "breadcrumbs-rtl.scss"
+    ],
+    "names": [],
+    "file": "breadcrumbs-rtl.css"
+}

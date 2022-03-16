@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "close-rtl.scss"
+    ],
+    "names": [],
+    "file": "close-rtl.css"
+}

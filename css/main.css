@@ -1,0 +1,463 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#3f87a6), color-stop(#ebf8e1), to(#f69d3c));
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  padding: 0;
+  margin: 0;
+}
+
+body .container {
+  background: -webkit-gradient(linear, left top, right top, from(#3f87a6), color-stop(#ebf8e1), to(#f69d3c)) no-repeat;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c) no-repeat;
+}
+
+body .container .nav-item-click {
+  top: 70px;
+  height: 70%;
+  width: 70%;
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  background-color: #323435;
+  z-index: 2;
+}
+
+body .container .nav-item-click .nav-item-click-close {
+  position: absolute;
+  right: 0;
+}
+
+body .container .nav-item-click .row .col-md-8 .list-group {
+  margin-left: 50px;
+}
+
+body .container .nav-item-click .row .col-md-8 .list-group .list-group-item {
+  width: 100%;
+}
+
+body .container .navbar {
+  width: 80px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  background-color: inherit;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+body .container .navbar:hover + nav {
+  width: 100px;
+  z-index: 2;
+}
+
+body .container .navbar nav {
+  padding-top: 30px;
+  width: 0;
+  height: 100%;
+  overflow: scroll;
+  background-color: lightslategrey;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+body .container .navbar nav .list-group .card {
+  background-color: inherit;
+}
+
+body .container .navbar nav .list-group .card span {
+  width: 20px;
+  height: 20px;
+  font-size: auto;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+body .container .navbar nav .list-group .card p button {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #222324;
+  outline: none;
+  background-color: #fff;
+  color: #323435;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  /* transition: 2s all linear; */
+}
+
+body .container .navbar nav .list-group .card p button:hover {
+  background: linear-gradient(20deg, #5a5f61, #38393a, #222a2b, #121313);
+  background-position: 400px;
+  /* background-color: #fff; */
+  /* transition: all 5s linear; */
+  -webkit-animation-name: blur;
+          animation-name: blur;
+  /* animation-delay: 0.4s; */
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  border: none;
+  color: #e6e4e4;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+  background-repeat: repeat;
+  /* background-size: initial; */
+}
+
+body .container .navbar nav .list-group .card p button::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  background: inherit;
+  border-radius: 10px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  opacity: 1;
+  -webkit-transition: opacity 0.5 s;
+  transition: opacity 0.5 s;
+  z-index: -1;
+}
+
+@-webkit-keyframes blur {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes blur {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+body .container .navbar nav .list-group-item {
+  background-color: inherit;
+  padding: 0;
+}
+
+body .container header {
+  display: none;
+}
+
+body .container header .white {
+  margin-top: 70px;
+}
+
+body .container header .title {
+  font-size: 300px;
+  position: relative;
+  margin-left: 50px;
+  margin-top: -50px;
+  color: #1c2944;
+}
+
+body .container header .title::after {
+  content: 'City';
+  font-size: 50px;
+  position: absolute;
+  top: 135px;
+  left: 130px;
+  color: #000;
+  text-shadow: 3px  0px  0  #fff, 0px -3px 0px #fff, -3px 0px 0px #fff;
+}
+
+body .container header .gameContentList .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+body .container header .gameContentList .card {
+  margin-left: 20px;
+  background: linear-gradient(45deg, red, blue);
+  width: 250px;
+  display: inline-block;
+}
+
+body .container header .gameContentList .card span {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 16px;
+}
+
+body .container header .gameContentList .card a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body .container header .gameContentList .card h1 {
+  font-size: 32px;
+}
+
+body .container header .gameContentList .card p button {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  color: #323435;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  /* transition: 2s all linear; */
+}
+
+body .container header .gameContentList .card p button:hover {
+  background: linear-gradient(20deg, #5a5f61, #38393a, #222a2b, #121313);
+  background-position: 400px;
+  /* background-color: #fff; */
+  /* transition: all 5s linear; */
+  -webkit-animation-name: blur;
+          animation-name: blur;
+  /* animation-delay: 0.4s; */
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  border: none;
+  color: #e6e4e4;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+  border: 1px solid #222324;
+  background-repeat: repeat;
+  /* background-size: initial; */
+}
+
+body .container header .gameContentList .card p button:active {
+  background-color: #cecbcb;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  color: #323435;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+}
+
+body .container header .gameContentList .card p button::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  background: inherit;
+  border-radius: 10px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  opacity: 1;
+  -webkit-transition: opacity 0.5 s;
+  transition: opacity 0.5 s;
+  z-index: -1;
+}
+
+body .container header .gameContentList .card p .tablinksactive {
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  color: #323435;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  /* transition: 2s all linear; */
+}
+
+body .container header .gameContentList .card p .tablinksactive:hover {
+  background: linear-gradient(20deg, #5a5f61, #38393a, #222a2b, #121313);
+  background-position: 400px;
+  /* background-color: #fff; */
+  /* transition: all 5s linear; */
+  -webkit-animation-name: blur;
+          animation-name: blur;
+  /* animation-delay: 0.4s; */
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  border: none;
+  color: #e6e4e4;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+  border: 1px solid #222324;
+  background-repeat: repeat;
+  /* background-size: initial; */
+}
+
+body .container header .gameContentList .card p .tablinksactive:active {
+  background-color: #cecbcb;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  color: #323435;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+}
+
+body .container header .gameContentList .card p .tablinksactive::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  background: inherit;
+  border-radius: 10px;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  opacity: 1;
+  -webkit-transition: opacity 0.5 s;
+  transition: opacity 0.5 s;
+  z-index: -1;
+}
+
+@keyframes blur {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+body .container .loader {
+  background: -webkit-gradient(linear, left top, right top, from(#3f87a6), color-stop(#ebf8e1), to(#f69d3c));
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  margin-left: -50px;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+}
+
+body .container .loader svg {
+  width: 50%;
+  margin-left: 25%;
+  -webkit-animation-name: loader;
+          animation-name: loader;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  30% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  45% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  60% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: -360deg;
+            transform: -360deg;
+  }
+  90% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  30% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  45% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  60% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: -360deg;
+            transform: -360deg;
+  }
+  90% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
